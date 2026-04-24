@@ -1,11 +1,17 @@
 package com.Clases.tema01;
 
 public class App {
-    Llave llave = new Llave();
-    // No se puede instanciar porque es abstracto
-    //Vehiculo vehiculo = new Vehiculo();
+
+    public static void main(String[] args) {
+        Llave llave = new Llave(); //objeto que es la instancia de una clase 
+        System.out.println(llave);
+        // no se puede instanciar porque es abstracto
+        //Vehiculo vehiculo = new Vehiculo
 
 
-    String textoInicial = "Hola Mundo";
-    String textoFinal = textoInicial.toUpperCase();
+        String textoInicial = "Hola mundo";
+        String textoFinal = textoInicial.toUpperCase();
+        System.out.println(textoFinal);
+    }
+
 }
