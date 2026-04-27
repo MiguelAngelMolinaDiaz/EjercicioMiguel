@@ -2,14 +2,16 @@ package EjerciciosActividad;
 
 public class Tamal {
     private String color;
-    private String tamaño;
+    private String tamano; // se cambia 'tamaño' por 'tamano'
     private String region;
     private float precio;
     private float peso;
 
+    // Constructor vacío
     public Tamal() {
     }
 
+    // Getter y Setter de color
     public String getColor() {
         return color;
     }
@@ -18,14 +20,16 @@ public class Tamal {
         this.color = color;
     }
 
-    public String getTamaño() {
-        return tamaño;
+    // Getter y Setter de tamano
+    public String getTamano() {
+        return tamano;
     }
 
-    public void setTamaño(String tamaño) {
-        this.tamaño = tamaño;
+    public void setTamano(String tamano) {
+        this.tamano = tamano;
     }
 
+    // Getter y Setter de region
     public String getRegion() {
         return region;
     }
@@ -34,6 +38,7 @@ public class Tamal {
         this.region = region;
     }
 
+    // Getter y Setter de precio
     public float getPrecio() {
         return precio;
     }
@@ -42,6 +47,7 @@ public class Tamal {
         this.precio = precio;
     }
 
+    // Getter y Setter de peso
     public float getPeso() {
         return peso;
     }
